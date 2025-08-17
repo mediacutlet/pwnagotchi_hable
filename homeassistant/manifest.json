@@ -1,19 +1,11 @@
 {
   "domain": "pwnagotchi_ble",
   "name": "Pwnagotchi BLE",
-  "version": "0.4.1",
-  "codeowners": [
-    "@you"
-  ],
-  "dependencies": [
-    "bluetooth"
-  ],
+  "version": "0.7.1",
+  "codeowners": ["@you"],
+  "dependencies": ["bluetooth"],
   "requirements": [],
   "bluetooth": [
-    {
-      "manufacturer_id": 65535,
-      "manufacturer_data_first_byte": 1,
-      "connectable": false
-    }
+    { "manufacturer_id": 65535, "connectable": false }
   ]
 }
